@@ -1,0 +1,8 @@
+class Shape { 
+    public: 
+    virtual ~Shape() {} // Virtual destructo 
+} 
+
+class Circle : public Shape { 
+    // .. 
+} 

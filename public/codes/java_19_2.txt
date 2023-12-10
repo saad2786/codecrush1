@@ -1,0 +1,4 @@
+// Networking Protocols
+Socket socket = new Socket("hostname", port);
+InputStream input = socket.getInputStream();
+OutputStream output = socket.getOutputStream();

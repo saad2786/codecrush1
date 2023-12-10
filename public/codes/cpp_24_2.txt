@@ -1,0 +1,12 @@
+#include <iostream> 
+#include <fstream> 
+int main() { 
+    std::ofstream outputFile("output.txt"); 
+    if (!outputFile) { 
+        std::cerr << "Failed to create file" << std::endl; 
+        return 1; 
+    } 
+    // Write data to outputFile 
+    outputFile.close(); 
+    return 0;
+}

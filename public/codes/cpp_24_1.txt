@@ -1,0 +1,12 @@
+#include <iostream> 
+#include <fstream> 
+int main() { 
+    std::ifstream inputFile("input.txt"); 
+    if (!inputFile) { 
+        std::cerr << "Failed to open file" << std::endl; 
+        return 1; 
+    } 
+    // Read data from inputFile 
+    inputFile.close(); 
+    return 0; 
+}

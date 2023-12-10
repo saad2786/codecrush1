@@ -1,0 +1,16 @@
+#include <iostream> 
+void divide(int numerator, int denominator) { 
+    if (denominator == 0) { 
+        throw std::runtime_error("Division by zero"); 
+    } 
+    int result = numerator / denominator; 
+    std::cout << "Result: " << result << std::endl; 
+} 
+int main() { 
+    try { 
+        divide(10, 0); 
+    } catch (const std::exception &e) { 
+        std::cerr << "Error: " << e.what() << std::endl; 
+    } 
+    return 0;
+} 

@@ -1,0 +1,4 @@
+try:
+    # Code that might raise ZeroDivisionError or ValueError
+except (ZeroDivisionError, ValueError) as e:
+    print("Caught an exception:", e)

@@ -1,0 +1,7 @@
+// String Concatenation
+String firstName = "John";
+String lastName = "Doe";
+String fullName = firstName + " " + lastName;
+
+// Using concat() method
+String message = firstName.concat(" ").concat(lastName);

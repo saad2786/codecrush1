@@ -1,0 +1,7 @@
+def decode_object(obj):
+    if "type" in obj and obj["type"] == "person":
+        return Person(obj["name"], obj["age"])
+    return obj
+
+decoded_person = json.loads(encoded_person, object_hook=decode_object)
+print(decoded_person.name, decoded_person.age)

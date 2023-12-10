@@ -1,0 +1,14 @@
+int num = 10; // Initialize the variable num with the value 10
+
+if (num > 0) {
+    if (num % 2 == 0) {
+        // The number is even
+        // Code specific to handling even numbers would go here
+    } else {
+        // The number is odd
+        // Code specific to handling odd numbers would go here
+    }
+} else {
+    // The number is non-positive (zero or negative)
+    // Code specific to handling non-positive numbers would go here
+}

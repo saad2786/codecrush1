@@ -1,0 +1,13 @@
+class Student
+{
+private:
+    int rollNumber;
+    string name;
+
+public:
+    Student()
+    {
+        rollNumber = 0;
+        name = "Unknown";
+    }
+};

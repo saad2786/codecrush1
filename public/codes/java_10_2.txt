@@ -1,0 +1,11 @@
+// Parameterized Constructor
+class Car {
+    String brand;
+    String model;
+
+    // Parameterized constructor
+    public Car(String brand, String model) {
+        this.brand = brand;
+        this.model = model;
+    }
+}

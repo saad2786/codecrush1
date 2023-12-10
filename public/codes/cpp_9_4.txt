@@ -1,0 +1,5 @@
+int arr[] = {10, 20, 30, 40, 50};
+int *p = arr; 
+// p points to the first element of arr 
+int thirdElement = *(p + 2);
+ // Access the third element using pointer arithmetic

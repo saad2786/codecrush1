@@ -1,0 +1,7 @@
+class Subclass extends Superclass {
+    constructor(/* constructor parameters */) {
+        super(/* arguments to superclass constructor */);
+        // Subclass-specific initialization
+    }
+    // Subclass-specific methods
+}

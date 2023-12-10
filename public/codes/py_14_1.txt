@@ -1,0 +1,10 @@
+import json     
+
+data = {      
+    "name": "Alice",     
+    "age": 30,     
+    "is_student": False,     
+    "interests": ["reading", "coding"]
+    }     
+json_string = json.dumps(data, indent=4)       
+print(json_string) 

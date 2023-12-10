@@ -1,0 +1,9 @@
+try { 
+    // Code that may throw exceptions
+} catch (const SomeException &e) { 
+    // Handle SomeException
+} catch (const AnotherException &e) { 
+    // Handle AnotherException
+} catch (...) { 
+    // Handle any other exception
+}

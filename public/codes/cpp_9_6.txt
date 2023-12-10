@@ -1,0 +1,13 @@
+void modifyValue(int *ptr)
+{
+    *ptr = 100; // Modify the value pointed to by ptr
+}
+int main()
+{
+    int num = 42;
+    int *ptr = &num;
+    modifyValue(ptr);
+    cout << num << endl;
+    // Output: 100 
+    return 0; 
+    }

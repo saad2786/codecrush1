@@ -1,0 +1,6 @@
+// Functions syntax
+return_type function_name(parameters) {
+    // Function body
+    // Code to perform the task
+    return value; // Optional return statement
+}

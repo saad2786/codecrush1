@@ -1,0 +1,4 @@
+myFunction(); // Works
+function myFunction() {
+    console.log("Hello");
+}

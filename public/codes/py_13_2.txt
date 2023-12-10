@@ -1,0 +1,9 @@
+data = [
+    ['Name', 'Age', 'Country'],
+    ['Alice', 28, 'USA'],
+    ['Bob', 22, 'Canada']
+]
+
+with open('output.csv', 'w', newline='') as file:
+    csv_writer = csv.writer(file)
+    csv_writer.writerows(data)

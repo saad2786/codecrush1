@@ -1,0 +1,12 @@
+class Circle
+{
+private:
+    double radius;
+
+public:
+    Circle(double r) : radius(r)
+    {
+    }
+    friend double calculateArea(const Circle &c);
+    // Declare friend function
+};

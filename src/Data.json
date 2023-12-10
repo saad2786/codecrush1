@@ -1,0 +1,87 @@
+[
+    {
+        "id": 1,
+        "title": ".NET Framework Notes for Professionals book",
+        "desc": ".NET Framework Notes for Professionals: Your comprehensive guide to mastering the .NET ecosystem, packed with expert insights and practical tips.",
+        "img": "/img/entityFramework.JPG",
+        "pdfUrl": "/pdfs/EntityFramework.pdf"
+    },
+    
+    {
+        "id": 2,
+        "title": "Algorithms Notes for Professionals book",
+        "desc": "Algorithms Notes for Professionals book is an illuminating guide that demystifies complex computer algorithms, offering practical insights and problem-solving strategies for both beginners and experienced professionals in the field of computer science.",
+        "img": "/img/algorithm.JPG",
+        "pdfUrl": "/pdfs/Algorithms.pdf"
+    },
+    {
+        "id": 3,
+        "title": "Android Notes for Professionals book",
+        "desc": "Android Notes for Professionals provides a comprehensive resource for seasoned professionals, offering advanced insights, expert tips, and practical strategies for mastering Android development, ensuring a deeper understanding of the platform's intricacies and enhancing proficiency in creating high-quality Android applications.",
+        "img": "/img/android.JPG",
+        "pdfUrl": "/pdfs/android.pdf"
+    },
+    {
+        "id": 4,
+        "title": "C programming Notes for Professionals book",
+        "desc": "The C Programming Notes for Professionals   book is a valuable resource for both beginners and experienced programmers looking to master the C programming language. This book is part of the Notes for Professionals series, which provides concise and practical information for various programming languages and technologies.",
+        "img": "/img/C.JPG",
+        "pdfUrl": "/pdfs/C_Programming.pdf"
+    },
+    {
+        "id": 5,
+        "title": "CSSNotesForProfessionals for Professionals book",
+        "desc": "CSSNotesForProfessionals: A concise and practical guide for mastering CSS, covering essential styles and web design techniques for professionals.",
+        "img": "/img/Css.JPG",
+        "pdfUrl": "/pdfs/CSS.pdf"
+    },
+    {
+        "id": 6,
+        "title": "HTML5NotesForProfessionals for Professionals book",
+        "desc": "HTML5 Notes for Professionals is a concise guide providing essential knowledge and tips for mastering HTML5 web development.",
+        "img": "/img/html5.JPG",
+        "pdfUrl": "/pdfs/HTML5.pdf"
+    },
+    {
+        "id": 7,
+        "title": "iOSNotesForProfessionals for Professionals book",
+        "desc": "iOS Notes for Professionals offers expert insights and practical tips, guiding professionals to master iOS app development comprehensively.",
+        "img": "/img/ios.JPG",
+        "pdfUrl": "/pdfs/ios.pdf"
+    },
+    {
+        "id": 8,
+        "title": " JavaNotesForProfessionals book",
+        "desc": "JavaNotesForProfessionals offers a comprehensive and concise guide for Java developers, featuring expert insights and practical knowledge.",
+        "img": "/img/java.JPG",
+        "pdfUrl": "/pdfs/java.pdf"
+    },
+    {
+        "id": 9,
+        "title": "JavaScriptNotesForProfessionals Professionals book",
+        "desc": "JavaScript Notes For Professionals: A concise, expert guide for mastering JavaScript, covering key concepts and practical tips for developers.",
+        "img": "/img/javascript.JPG",
+        "pdfUrl": "/pdfs/JavaScript.pdf"
+    },
+    {
+        "id": 10,
+        "title": "MongoDBNotesForProfessionals Professionals book",
+        "desc": "MongodbForProfessionals: A concise guide for experienced developers, offering advanced insights and techniques for mastering MongoDB in real-world applications.",
+        "img": "/img/mongodb.JPG",
+        "pdfUrl": "/pdfs/MongoDB.pdf"
+    },
+    {
+        "id": 11,
+        "title": "KotlinNotesForProfessionals Professionals book",
+        "desc": "KotlinNotesForProfessionals: A concise guide to mastering Kotlin, offering expert insights and practical knowledge for all levels of developers.",
+        "img": "/img/kotline.JPG",
+        "pdfUrl": "/pdfs/Kotlin.pdf"
+    },
+    {
+        "id": 12,
+        "title": "MicrosoftMysqlServer for Professionals book",
+        "desc": "Microsoft MySQL Server for Professionals: A comprehensive guide to mastering Microsoft's MySQL server for database professionals and developers.",
+        "img": "/img/MicrosoftMysqlServer.JPG",
+        "pdfUrl": "/pdfs/MySQL.pdf"
+    }
+]

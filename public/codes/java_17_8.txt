@@ -1,0 +1,6 @@
+// StringBuilder
+StringBuilder builder = new StringBuilder();
+builder.append("Hello");
+builder.append(", ");
+builder.append("World!");
+String result = builder.toString();

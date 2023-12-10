@@ -1,0 +1,5 @@
+// Batch Processing
+Statement statement = connection.createStatement();
+statement.addBatch("INSERT INTO users (name) VALUES ('Alice')");
+statement.addBatch("INSERT INTO users (name) VALUES ('Bob')");
+int[] updateCounts = statement.executeBatch();

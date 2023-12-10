@@ -1,0 +1,3 @@
+int numbers[5] = {1, 2, 3, 4, 5};        // An array of integers with 5 elements
+double temperatures[3] = {98.6, 32.0, 75.2};  // An array of doubles with 3 elements
+char vowels[5] = {'a', 'e', 'i', 'o', 'u'};   // An array of characters with 5 elements

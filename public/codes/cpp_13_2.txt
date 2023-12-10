@@ -1,0 +1,16 @@
+class Math
+{
+public:
+    static double square(double num)
+    {
+        return num * num;
+    }
+};
+int main()
+{
+    double result = Math::square(5.0);
+    // Call static member function
+    cout << "Square: " << result << endl;
+    // Output: Square: 25
+    return 0;
+}

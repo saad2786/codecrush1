@@ -1,0 +1,2 @@
+console.log(name); // Outputs: undefined
+var name = "John";

@@ -1,0 +1,6 @@
+text = "Python Programming"         
+lowercase = text.lower()               
+uppercase = text.upper()           
+capitalized = text.capitalize()        
+index = text.find("Programming")        
+replaced = text.replace("Python", "Java")        

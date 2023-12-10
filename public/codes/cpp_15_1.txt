@@ -1,0 +1,22 @@
+class Shape
+{
+    // Base class
+public:
+    virtual double getArea() const = 0;
+    // Pure virtual function
+};
+class Circle : public Shape
+{
+    // Derived class
+private:
+    double radius;
+
+public:
+    Circle(double r) : radius(r)
+    {
+    }
+    double getArea() const
+    {
+        return 3.14 * radius * radius;
+    }
+};

@@ -1,0 +1,18 @@
+class Shape { 
+    public: 
+    virtual double getArea() const { 
+        return 0.0; 
+    } 
+}
+class Circle : public Shape { 
+    private: 
+    double radius; 
+    public: 
+    Circle(double r){
+        radius(r){
+            double getArea() const override { 
+            return 3.14 * radius * radius; 
+            }
+        }
+    }
+} 

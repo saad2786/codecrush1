@@ -1,0 +1,3 @@
+// String Substring
+String substring = fullName.substring(6); // From index 6 to end
+String partialSubstring = fullName.substring(0, 5); // From index 0 to 4

@@ -1,0 +1,166 @@
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400&family=Josefin+Sans:wght@100;200;300;400;500;600;700&family=Lora:ital,wght@1,400;1,500;1,600&family=Montserrat:ital,wght@1,600&family=Noto+Sans:wght@300&family=Nunito:ital,wght@0,200;0,300;0,400;1,200;1,300;1,400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Ubuntu:ital@1&family=Urbanist:ital,wght@0,600;0,700;1,100;1,600;1,700&family=Varela&family=Varela+Round&display=swap');
+
+.contentContainer {
+  display: flex;
+  flex: 1;
+  gap: 20px;
+  padding: 10px;
+  .contentContainerLeft {
+    flex: 3;
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1);
+    padding: 50px 70px;
+
+    .btns {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-top: 20px;
+      margin-bottom: -10px;
+      padding: 20px 10px;
+      // border-bottom: 1px solid lightgray;
+      .previous,
+      .next {
+        padding: 10px 15px;
+        border-radius: 10px;
+        font-size: 16px;
+        background-color: #3a404d;
+        cursor: pointer;
+        color: aliceblue;
+      }
+      .next {
+        border-right: 10px inset teal;
+      }
+      .previous {
+        border-left: 10px outset teal;
+      }
+      .invisible {
+        visibility: hidden;
+      }
+      .previous:hover,
+      .next:hover {
+        background-color: #5e626a;
+      }
+    }
+    .title {
+      width: 100%;
+      font-size: 32px;
+      color: teal;
+      font-weight: bold;
+      border-bottom: 1px solid lightgray;
+      margin-bottom: 20px;
+    }
+    .content {
+      .defination {
+        font-size: 16px;
+        font-weight: 400;
+        margin-top: 20px;
+        text-indent: 30px;
+        width: fit-content;
+        text-align: justify;
+        line-height: 2;
+        margin-bottom: 20px;
+      }
+      ul {
+        padding: 0;
+        list-style: none;
+        line-height: 2.5;
+
+        li {
+          .subTitle {
+            font-size: 20px;
+            font-weight: 700;
+            text-decoration: underline;
+            margin-top: 20px;
+          }
+          ul.examples {
+            padding: 20px;
+            margin-top: 20px;
+            background-color: rgba(221, 221, 221, 0.997);
+            border-radius: 15px;
+            line-height: 60px;
+            font-family: "Roboto Mono", monospace;
+            list-style: none !important;
+            span {
+              font-size: 16px;
+              font-weight: 300 !important;
+              color: rgb(9, 9, 9);
+            }
+          }
+          ul.desc {
+            list-style-type: decimal;
+            list-style-position: inside;
+            .listItem {
+              font-size: 16px;
+              .listTitle {
+                font-weight: 500 !important;
+              }
+              .listDesc {
+                font-weight: 300;
+                line-height: 0.5;
+              }
+              font-weight: 500;
+            }
+          }
+        }
+      }
+    }
+  }
+  .contentContainerRight {
+    flex: 1;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1);
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .contentContainer {
+    width: 100%;
+    flex-direction: column;
+
+    .contentContainerLeft {
+      padding: 20px 30px;
+
+      .title {
+        font-size: 20px;
+      }
+      * {
+        font-size: 12px;
+        line-height: 1.5;
+      }
+      .content {
+        .defination {
+          font-size: 12px;
+        }
+        ul {
+          li {
+            .subTitle {
+              font-size: 14px;
+            }
+            ul.examples {
+              span {
+                font-size: 12px;
+              }
+            }
+            ul.desc {
+              .listItem {
+                font-size: 14px;
+                .listTitle {
+                  font-size: 14px;
+                  font-weight: bold;
+                }
+              }
+            }
+          }
+        }
+      }
+      .btns {
+        .previous,
+        .next {
+          padding: 5px 12px;
+          border-radius: 5px;
+          font-size: 12px;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,6 @@
+// Listeners and Event Handling
+button.addActionListener(new ActionListener() {
+    public void actionPerformed(ActionEvent e) {
+        // Handle button click event
+    }
+});

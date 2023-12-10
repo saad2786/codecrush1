@@ -1,0 +1,5 @@
+// Polymorphism
+Car car1 = new Car("Ford", "Focus", 2023);
+Car car2 = new ElectricCar("Tesla", "Model S", 2023, 100);
+car1.start(); // Calls the start method of Car class
+car2.start(); // Calls the overridden start method of ElectricCar class

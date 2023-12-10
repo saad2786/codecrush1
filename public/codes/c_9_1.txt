@@ -1,0 +1,6 @@
+data_type *pointer_name;
+int *ptr;      // Declare an integer pointer
+double *ptr2;  // Declare a double pointer
+
+int num = 42;
+int *ptr3 = &num;  // Initialize pointer with the address of num

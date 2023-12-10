@@ -1,0 +1,29 @@
+class Animal {
+    speak() {
+        console.log("Animal makes a sound.");
+    }
+}
+
+class Dog extends Animal {
+    speak() {
+        console.log("Dog barks.");
+    }
+}
+
+class Cat extends Animal {
+    speak() {
+        console.log("Cat meows.");
+    }
+}
+
+function makeAnimalSpeak(animal) {
+    animal.speak();
+}
+
+const animal = new Animal();
+const dog = new Dog();
+const cat = new Cat();
+
+makeAnimalSpeak(animal); // Output: Animal makes a sound.
+makeAnimalSpeak(dog);    // Output: Dog barks.
+makeAnimalSpeak(cat);    // Output: Cat meows.

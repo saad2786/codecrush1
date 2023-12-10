@@ -1,0 +1,32 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(int argc, char **argv) {
+    int e = EXIT_SUCCESS;
+
+    /* Get path from argument to main else default to output.txt */
+    char *path = (argc > 1) ? argv[1] : "output.txt";
+
+    /* Open file for writing and obtain file pointer */
+    FILE *file = fopen(path, "w");
+
+    /* Print error message and exit if fopen() failed */
+    if (!file) {
+        perror(path);
+        return EXIT_FAILURE;
+    }
+
+    /* Writes text to file. Unlike puts(), fputs() does not add a new-line. */
+    if (fputs("Output in file.\n", file) == EOF) {
+        perror(path);
+        e = EXIT_FAILURE;
+    }
+
+    /* Close file */
+    if (fclose(file)) {
+        perror(path);
+        return EXIT_FAILURE;
+    }
+
+    return e;
+}

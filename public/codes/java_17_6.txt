@@ -1,0 +1,3 @@
+// String Splitting
+String csvData = "Alice,Bob,Carol";
+String[] names = csvData.split(",");

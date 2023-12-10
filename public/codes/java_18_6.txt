@@ -1,0 +1,15 @@
+// Custom Exception Classes
+class CustomException extends Exception {
+    public CustomException(String message) {
+        super(message);
+    }
+}
+
+// Usage
+try {
+    if (condition) {
+        throw new CustomException("This is a custom exception");
+    }
+} catch (CustomException e) {
+    // Handle the custom exception
+}

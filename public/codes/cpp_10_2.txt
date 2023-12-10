@@ -1,0 +1,4 @@
+Circle c1;
+// Create an object of class Circle
+c1.setRadius(5.0);
+double area = c1.getArea();

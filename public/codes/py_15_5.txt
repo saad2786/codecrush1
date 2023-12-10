@@ -1,0 +1,20 @@
+class Car:
+    def __init__(self, brand, model, year):
+        self.brand = brand
+        self.model = model
+        self.year = year
+
+    def start(self):
+        print("Starting the car...")
+
+class ElectricCar(Car):
+    def __init__(self, brand, model, year, battery_capacity):
+        super().__init__(brand, model, year)
+        self.battery_capacity = battery_capacity
+
+    def start(self):
+        print("Starting the electric car...")
+
+# Example usage:
+my_electric_car = ElectricCar("Tesla", "Model S", 2023, 75)
+my_electric_car.start()

@@ -1,0 +1,8 @@
+// To Return the Current Object:
+class Counter {
+    private int count;
+    public Counter increment() {
+        count++;
+        return this; // Return the current object
+    }
+}

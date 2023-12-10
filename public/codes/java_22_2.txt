@@ -1,0 +1,3 @@
+// Executing Queries
+Statement statement = connection.createStatement();
+ResultSet resultSet = statement.executeQuery("SELECT * FROM users");

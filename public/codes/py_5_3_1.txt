@@ -1,0 +1,2 @@
+for item in sequence:
+  // Code to be executed in each iteration 

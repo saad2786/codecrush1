@@ -1,0 +1,6 @@
+// StringBuffer
+StringBuffer buffer = new StringBuffer();
+buffer.append("Java");
+buffer.append(" is");
+buffer.append(" great!");
+String result = buffer.toString();

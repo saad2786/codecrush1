@@ -1,0 +1,3 @@
+int num = 42; // Declare an integer variable named num and assign it the value 42
+int *ptr = &num; // Declare a pointer ptr and make it point to the memory address of num
+int value = *ptr; // Dereference the pointer ptr to access the value stored in num

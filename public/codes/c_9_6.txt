@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+// Function that modifies the value pointed to by the pointer
+void modifyValue(int *ptr) {
+    *ptr = 100; // Modify the value pointed to by ptr
+}
+
+int main() {
+    int num = 42; // Declare an integer variable num and assign the value 42
+    int *ptr = &num; // Declare a pointer ptr and point it to the memory address of num
+
+    modifyValue(ptr); // Call the modifyValue function passing the pointer ptr
+
+    printf("%d", num); // Output: 100 (The value of num has been modified through the pointer)
+
+    return 0; // Return from main function
+}

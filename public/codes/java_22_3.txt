@@ -1,0 +1,4 @@
+// Transaction Management
+connection.setAutoCommit(false); // Start a transaction
+connection.commit(); // Commit the transaction
+connection.rollback(); // Roll back the transaction

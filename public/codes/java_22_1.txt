@@ -1,0 +1,2 @@
+// JDBC Connections
+Connection connection = DriverManager.getConnection(url, username, password);

@@ -1,0 +1,59 @@
+[
+    {
+        "id": 1,
+        "title": "C lanuage",
+        "desc": ".NET Framework Notes for Professionals: Your comprehensive guide to mastering the .NET ecosystem, packed with expert insights and practical tips.",
+        "img": "/CodeCards/c_pro.png",
+        "pdfUrl": "/pdfs/EntityFramework.pdf"
+    },
+    
+    {
+        "id": 2,
+        "title": "C++ ",
+        "desc": "Algorithms Notes for Professionals book is an illuminating guide that demystifies complex computer algorithms, offering practical insights and problem-solving strategies for both beginners and experienced professionals in the field of computer science.",
+        "img": "/CodeCards/c++.png",
+        "pdfUrl": "/pdfs/Algorithms.pdf"
+    },
+    {
+        "id": 3,
+        "title": "Java",
+        "desc": "Android Notes for Professionals provides a comprehensive resource for seasoned professionals, offering advanced insights, expert tips, and practical strategies for mastering Android development, ensuring a deeper understanding of the platform's intricacies and enhancing proficiency in creating high-quality Android applications.",
+        "img": "/CodeCards/java2.png",
+        "pdfUrl": "/pdfs/android.pdf"
+    },
+    {
+        "id": 4,
+        "title": "Python",
+        "desc": "The C Programming Notes for Professionals   book is a valuable resource for both beginners and experienced programmers looking to master the C programming language. This book is part of the Notes for Professionals series, which provides concise and practical information for various programming languages and technologies.",
+        "img": "/CodeCards/python.jpg",
+        "pdfUrl": "/pdfs/C_Programming.pdf"
+    },
+    {
+        "id": 5,
+        "title": "Javascript",
+        "desc": "The C Programming Notes for Professionals   book is a valuable resource for both beginners and experienced programmers looking to master the C programming language. This book is part of the Notes for Professionals series, which provides concise and practical information for various programming languages and technologies.",
+        "img": "/CodeCards/html.png",
+        "pdfUrl": "/pdfs/C_Programming.pdf"
+    },
+    {
+        "id": 6,
+        "title": "Html",
+        "desc": "The C Programming Notes for Professionals   book is a valuable resource for both beginners and experienced programmers looking to master the C programming language. This book is part of the Notes for Professionals series, which provides concise and practical information for various programming languages and technologies.",
+        "img": "/CodeCards/css.png",
+        "pdfUrl": "/pdfs/C_Programming.pdf"
+    },
+    {
+        "id": 7,
+        "title": "Css",
+        "desc": "The C Programming Notes for Professionals   book is a valuable resource for both beginners and experienced programmers looking to master the C programming language. This book is part of the Notes for Professionals series, which provides concise and practical information for various programming languages and technologies.",
+        "img": "/CodeCards/js.png",
+        "pdfUrl": "/pdfs/C_Programming.pdf"
+    },    
+    {
+        "id": 8,
+        "title": "React",
+        "desc": "The C Programming Notes for Professionals   book is a valuable resource for both beginners and experienced programmers looking to master the C programming language. This book is part of the Notes for Professionals series, which provides concise and practical information for various programming languages and technologies.",
+        "img": "/CodeCards/react.jpg",
+        "pdfUrl": "/pdfs/C_Programming.pdf"
+    } 
+]

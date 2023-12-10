@@ -1,0 +1,10 @@
+// Default Constructor
+class Student {
+    private int rollNumber;
+    String name;
+
+    public Student() {
+        rollNumber = 0;
+        name = "Unknown";
+    }
+}

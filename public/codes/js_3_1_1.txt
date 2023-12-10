@@ -1,0 +1,2 @@
+let age = 25;
+let pi = 3.14;

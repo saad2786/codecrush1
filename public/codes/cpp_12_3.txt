@@ -1,0 +1,17 @@
+class Calculator
+{
+private:
+    int value;
+
+public:
+    Calculator()
+    {
+        value = 0;
+    }
+    Calculator &add(int num)
+    {
+        value += num;
+        return *this;
+        // Return the current object
+    }
+};

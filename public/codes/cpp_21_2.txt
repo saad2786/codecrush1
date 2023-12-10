@@ -1,0 +1,10 @@
+#include <iostream> namespace MyNamespace { 
+    void foo() { 
+        std::cout << "Hello from MyNamespace" << std::endl; 
+    } 
+} 
+int main() { 
+    MyNamespace::foo(); 
+    // Calling function from MyNamespace  
+    return 0; 
+}

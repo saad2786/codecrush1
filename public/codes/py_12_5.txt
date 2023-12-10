@@ -1,0 +1,2 @@
+text = "Python is great"    
+substring = text[7:9]

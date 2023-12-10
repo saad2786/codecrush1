@@ -1,0 +1,35 @@
+[
+    {
+        "id": 1,
+        "title": "Front end development",
+        "desc": ".NET Framework Notes for Professionals: Your comprehensive guide to mastering the .NET ecosystem, packed with expert insights and practical tips.",
+        "img": "/roadmap_img/frontend.jpeg",
+        "pdfUrl": "/pdfs/EntityFramework.pdf",
+        "to":"/frontend"
+    },
+    
+    {
+        "id": 2,
+        "title": "Backend development",
+        "desc": "Algorithms Notes for Professionals book is an illuminating guide that demystifies complex computer algorithms, offering practical insights and problem-solving strategies for both beginners and experienced professionals in the field of computer science.",
+        "img": "/roadmap_img/backend2.png",
+        "pdfUrl": "/pdfs/Algorithms.pdf",
+        "to":"/backend"
+    },
+    {
+        "id": 3,
+        "title": "Fullstack Develpoment",
+        "desc": "Android Notes for Professionals provides a comprehensive resource for seasoned professionals, offering advanced insights, expert tips, and practical strategies for mastering Android development, ensuring a deeper understanding of the platform's intricacies and enhancing proficiency in creating high-quality Android applications.",
+        "img": "/roadmap_img/android.png",
+        "pdfUrl": "/pdfs/android.pdf",
+        "to":"/fullstack"
+    },
+    {
+        "id": 4,
+        "title": "Devops Engineering",
+        "desc": "The C Programming Notes for Professionals   book is a valuable resource for both beginners and experienced programmers looking to master the C programming language. This book is part of the Notes for Professionals series, which provides concise and practical information for various programming languages and technologies.",
+        "img": "/roadmap_img/devops.jpg",
+        "pdfUrl": "/pdfs/C_Programming.pdf",
+        "to":"/devops"
+    }    
+]

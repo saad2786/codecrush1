@@ -1,0 +1,19 @@
+function fetchDataFromServer(callback, errorCallback) {
+    // Simulating an asynchronous operation
+    setTimeout(() => {
+        const error = null; // Set to an error object to simulate an error
+        if (error) {
+            errorCallback(error);
+        } else {
+            const data = { name: "Jane", age: 25 };
+            callback(data);
+        }
+    }, 1000);
+}
+function processData(data) {
+    console.log(`Name: ${data.name}, Age: ${data.age}`);
+}
+function handleError(error) {
+    console.error(`An error occurred: ${error}`);
+}
+fetchDataFromServer(processData, handleError);

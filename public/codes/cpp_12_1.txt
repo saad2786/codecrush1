@@ -1,0 +1,12 @@
+class Person
+{
+private:
+    string name;
+
+public:
+    void setName(string name)
+    {
+        this->name = name;
+        // this disambiguates between local name and class attribute name
+    }
+};

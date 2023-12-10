@@ -1,0 +1,19 @@
+class Car {
+    constructor(make, model) {
+        this.make = make;
+        this.model = model;
+        this.isEngineRunning = false;
+    }
+    startEngine() {
+        this.isEngineRunning = true;
+        console.log(`${this.make} ${this.model}'s engine started.`);
+    }
+    stopEngine() {
+        this.isEngineRunning = false;
+        console.log(`${this.make} ${this.model}'s engine stopped.`);
+    }
+}
+
+const myCar = new Car("Toyota", "Camry");
+myCar.startEngine(); // Output: Toyota Camry's engine started.
+myCar.stopEngine();  // Output: Toyota Camry's engine stopped.

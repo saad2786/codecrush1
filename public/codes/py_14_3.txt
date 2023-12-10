@@ -1,0 +1,14 @@
+# Reading JSON from a file
+with open("data.json", "r") as json_file:
+    data = json.load(json_file)
+    print(data)
+
+# Writing JSON to a file
+data_to_write = {
+    "name": "Bob",
+    "age": 25,
+    "is_student": True
+}
+
+with open("output.json", "w") as json_file:
+    json.dump(data_to_write, json_file, indent=4)

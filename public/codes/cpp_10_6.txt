@@ -1,0 +1,14 @@
+class Shape
+{
+public:
+    virtual double getArea() = 0;
+    // Pure virtual function
+};
+class Circle : public Shape
+{
+    // Implement getArea for Circle
+};
+class Square : public Shape
+{
+    // Implement getArea for Square
+};

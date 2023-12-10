@@ -1,0 +1,2 @@
+// Accessing Elements
+int thirdNumber = numbers[2]; // Accessing the third element

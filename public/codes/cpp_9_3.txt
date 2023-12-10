@@ -1,0 +1,5 @@
+int num = 42;
+int *ptr = &num; 
+// Pointer points to num
+int value = *ptr; 
+// Dereference the pointer to access nums value

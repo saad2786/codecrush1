@@ -1,0 +1,4 @@
+myFunction(); // Error: myFunction is not a function
+var myFunction = function() {
+    console.log("Hello");
+};

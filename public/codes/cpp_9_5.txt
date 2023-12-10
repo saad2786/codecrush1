@@ -1,0 +1,6 @@
+          int *dynamicPtr = new int; 
+          // Allocate memory for an integer
+           *dynamicPtr = 100; 
+          // Store a value in the allocated memory
+           delete dynamicPtr; 
+          // Deallocate the memory when it is no longer needed 

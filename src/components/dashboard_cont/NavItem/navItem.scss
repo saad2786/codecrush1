@@ -1,0 +1,31 @@
+.links {
+  display: flex;
+
+  .link {
+    text-decoration: none;
+    span {
+      font-size: 16px;
+      padding: 15px;
+      color: black;
+    }
+  }
+  .active span {
+    background-color: lightgray;
+    border-bottom: 5px inset teal;
+    padding-bottom: 11px;
+    font-weight: 700;
+  }
+  span:hover {
+    background-color: rgba(211, 211, 211, 0.454);
+  }
+  a {
+    text-decoration: none;
+  }
+}
+@media screen and (max-width: 600px) {
+  .links {
+    .link {
+      display: none;
+    }
+  }
+}

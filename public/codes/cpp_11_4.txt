@@ -1,0 +1,16 @@
+class DynamicArray
+{
+private:
+    int *arr;
+
+public:
+    DynamicArray(int size)
+    {
+        arr = new int[size];
+    }
+    ~DynamicArray()
+    {
+        delete[] arr;
+        // Clean up allocated memory
+    }
+};

@@ -1,0 +1,7 @@
+// Connection Pooling
+// Using HikariCP connection pooling
+HikariConfig config = new HikariConfig();
+config.setJdbcUrl("jdbc:mysql://localhost:3306/mydb");
+config.setUsername("username");
+config.setPassword("password");
+DataSource dataSource = new HikariDataSource(config);

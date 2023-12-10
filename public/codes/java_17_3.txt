@@ -1,0 +1,2 @@
+// String Indexing
+char firstChar = fullName.charAt(0); // Accesses the first character

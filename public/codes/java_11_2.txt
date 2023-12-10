@@ -1,0 +1,10 @@
+// To Invoke Another Constructor:
+class Book {
+    String title;
+    public Book(String title) {
+        this.title = title;
+    }
+    public Book() {
+        this("Untitled"); // Calls the other constructor
+    }
+}

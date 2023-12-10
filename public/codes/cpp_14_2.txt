@@ -1,0 +1,4 @@
+double calculateArea(const Circle &c)
+{
+    return 3.14 * c.radius * c.radius;
+}

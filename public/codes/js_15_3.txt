@@ -1,0 +1,7 @@
+async Function1((result1) => {
+    async Function2(result1, (result2) => {
+        async Function3(result2, (result3) => {
+            // More nested callbacks...
+        });
+    });
+});

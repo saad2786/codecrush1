@@ -1,0 +1,6 @@
+// Database Metadata
+DatabaseMetaData metaData = connection.getMetaData();
+ResultSet tables = metaData.getTables(null, null, null, null);
+while (tables.next()) {
+    String tableName = tables.getString("TABLE_NAME");
+}

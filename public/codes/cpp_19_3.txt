@@ -1,0 +1,19 @@
+class Animal { 
+    public: 
+    virtual void speak() const { 
+        cout << "Animal speaks!" << endl; 
+    } 
+}
+
+class Dog : public Animal { 
+    public: void speak() const override { 
+        cout << "Dog barks!" << endl; 
+    } 
+}
+
+int main() { 
+    Animal *animal = new Dog(); 
+    animal->speak(); // Calls Dogs overridden speak() method 
+    delete animal; 
+    return 0;
+} 

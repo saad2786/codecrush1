@@ -1,0 +1,3 @@
+std::string message = "Hello, world!"; 
+char firstChar = message[0]; // Accessing first character 
+message[7] = "w"; // Modifying character 

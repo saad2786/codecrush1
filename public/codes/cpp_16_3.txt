@@ -1,0 +1,27 @@
+class Department
+{
+public:
+    string name;
+};
+
+class Employee
+{
+public:
+    string name;
+    Department *department; // Aggregation relationship
+};
+
+int main()
+{
+    Department dept;
+    dept.name = "Engineering";
+
+    Employee emp;
+    emp.name = "Alice";
+    emp.department = &dept;
+
+    cout << "Employee: " << emp.name << endl;
+    cout << "Department: " << emp.department->name << endl;
+
+    return 0;
+}

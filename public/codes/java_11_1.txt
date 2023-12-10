@@ -1,0 +1,7 @@
+// To Access Instance Variables:
+class Person {
+    String name;
+    public void setName(String name) {
+        this.name = name; // "this" refers to the instance variable
+    }
+}

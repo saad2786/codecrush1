@@ -1,0 +1,18 @@
+class Printable { 
+    public: 
+    virtual void print() const = 0; // Pure virtual function 
+} 
+
+class Book : public Printable { 
+    public: 
+    void print() const override { 
+        cout << "Print book details" << endl; 
+    } 
+}
+
+class Magazine : public Printable { 
+    public: 
+    void print() const override { 
+        cout << "Print magazine details" << endl; 
+    }
+}

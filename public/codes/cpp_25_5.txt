@@ -1,0 +1,15 @@
+#include <iostream> 
+#include <stack> 
+#include <queue> 
+int main() { 
+    std::stack<int> myStack; 
+    myStack.push(1); 
+    myStack.push(2); 
+    int topElement = myStack.top();  
+    std::queue<int> myQueue; 
+    myQueue.push(1); 
+    myQueue.push(2); 
+    int frontElement = myQueue.front();  
+    std::cout << "Top of Stack: " << topElement << ", Front of Queue: " << frontElement << std::endl; 
+    return 0; 
+}

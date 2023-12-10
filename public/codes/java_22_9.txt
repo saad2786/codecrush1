@@ -1,0 +1,6 @@
+// Advanced Connection Configuration
+HikariConfig config = new HikariConfig();
+config.setConnectionTimeout(5000); // Set connection timeout to 5 seconds
+config.setAutoCommit(false); // Disable auto-commit
+config.addDataSourceProperty("characterEncoding", "UTF-8"); // Set character encoding
+DataSource dataSource = new HikariDataSource(config);

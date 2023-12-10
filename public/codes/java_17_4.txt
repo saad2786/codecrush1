@@ -1,0 +1,3 @@
+// String Case Conversion
+String upperCaseName = fullName.toUpperCase();
+String lowerCaseName = fullName.toLowerCase();

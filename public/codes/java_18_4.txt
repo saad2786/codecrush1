@@ -1,0 +1,8 @@
+// finally Block
+try {
+    // Code that might raise an exception
+} catch (ExceptionType e) {
+    // Handle the exception
+} finally {
+    // Code that will be executed regardless
+}

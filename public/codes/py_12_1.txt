@@ -1,0 +1,2 @@
+single_quoted = 'Hello, world!'
+double_quoted = "Python is awesome"

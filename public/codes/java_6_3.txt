@@ -1,0 +1,12 @@
+// Switch statement
+switch (expression) {
+    case value1:
+        // Code to execute if expression matches value1
+        break;
+    case value2:
+        // Code to execute if expression matches value2
+        break;
+    // Additional cases...
+    default:
+        // Code to execute if no cases match expression
+}

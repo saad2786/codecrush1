@@ -1,0 +1,2 @@
+let num = 5 + "5"; // "55" (number is coerced into a string)
+let total = "10" - 5; // 5 (string is coerced into a number)

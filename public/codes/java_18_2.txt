@@ -1,0 +1,6 @@
+// try-catch Blocks
+try {
+    // Code that might raise an exception
+} catch (ExceptionType e) {
+    // Code to handle the exception
+}

@@ -1,0 +1,8 @@
+int main() { 
+    Shape *shape = new Circle(5.0); 
+    double area = shape->getArea(); 
+    // Calls Circles overridden getArea() 
+    cout << "Area: " << area << endl; 
+    delete shape; 
+    return 0; 
+} 

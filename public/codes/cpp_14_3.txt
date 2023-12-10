@@ -1,0 +1,7 @@
+int main()
+{
+    Circle circle(5.0);
+    double area = calculateArea(circle);
+    cout << "Circle Area: " << area << endl;
+    return 0;
+}

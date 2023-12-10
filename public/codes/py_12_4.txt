@@ -1,0 +1,3 @@
+text = "Python"       
+first_char = text[0]        
+second_char = text[1]

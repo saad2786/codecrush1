@@ -1,0 +1,7 @@
+// StringTokenizer
+String input = "apple,banana,orange";
+StringTokenizer tokenizer = new StringTokenizer(input, ",");
+while (tokenizer.hasMoreTokens()) {
+    String token = tokenizer.nextToken();
+    System.out.println(token);
+}

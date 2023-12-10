@@ -1,0 +1,11 @@
+function fetchDataFromServer(callback) {
+    // Simulating an asynchronous operation
+    setTimeout(() => {
+        const data = { name: "John", age: 30 };
+        callback(data);
+    }, 1000);
+}
+function processData(data) {
+    console.log(`Name: ${data.name}, Age: ${data.age}`);
+}
+fetchDataFromServer(processData);

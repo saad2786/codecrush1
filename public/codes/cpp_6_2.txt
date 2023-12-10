@@ -1,0 +1,17 @@
+int num = 10;
+if (num > 0)
+{
+    if (num % 2 == 0)
+    {
+
+        cout << "Positive and even." << endl;
+    }
+    else
+    {
+        cout << "Positive and odd." << endl;
+    }
+}
+else
+{
+    cout << "Non-positive." << endl;
+}

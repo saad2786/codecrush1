@@ -1,0 +1,113 @@
+[
+    {
+        "id": 1,
+        "title": "C programming tutorial",
+        "desc": "",
+        "img": "/tutorial_Img/c_programming.JPG",
+        "pdfUrl": "https://youtu.be/irqbmMNs2Bo?si=HtMh3gFPOvZlCN0A"
+    },
+    {
+        "id": 2,
+        "title": "C++ tutorial",
+        "desc": "",
+        "img": "/tutorial_Img/c++.JPG",
+        "pdfUrl": "https://youtu.be/vLnPwxZdW4Y?si=k2k0Bz8rgw2JJDy1"
+    },
+    {
+        "id": 3,
+        "title": "Java tutorial",
+        "desc": "",
+        "img": "/tutorial_Img/java.JPG",
+        "pdfUrl": "https://youtu.be/eIrMbAQSU34?si=xQpv11dRfZFpMgPb"
+    },
+    {
+        "id": 4,
+        "title": "Python tutorial",
+        "desc": "",
+        "img": "/tutorial_Img/python.JPG",
+        "pdfUrl": "https://youtu.be/_uQrJ0TkZlc?si=752TQge9XErxOWPJ"
+    },
+    {
+        "id": 5,
+        "title": "HTML tutorial",
+        "desc": "",
+        "img": "/tutorial_Img/html.JPG",
+        "pdfUrl": "https://youtu.be/BsDoLVMnmZs?si=Ohaf-ugQF7p0IyeF"
+    },
+    {
+        "id": 6,
+        "title": "Css tutorial",
+        "desc": "",
+        "img": "/tutorial_Img/css.JPG",
+        "pdfUrl": "https://youtu.be/Edsxf_NBFrw?si=iWawKWExCxMBf7Rw"
+    },
+    {
+        "id": 7,
+        "title": "Javascript tutorial",
+        "desc": "",
+        "img": "/tutorial_Img/javascript.JPG",
+        "pdfUrl": "https://youtu.be/PkZNo7MFNFg?si=U9As7uhTW-ojqDHz"
+    },
+    {
+        "id": 8,
+        "title": "Bootstrap tutorial",
+        "desc": "",
+        "img": "/tutorial_Img/bootstrap.JPG",
+        "pdfUrl": "https://youtu.be/-qfEOE4vtxE?si=0C_EDIL12YK2GW7A"
+    },
+    {
+        "id": 9,
+        "title": "TailwindCss tutorial",
+        "desc": "",
+        "img": "/tutorial_Img/tailwindcss.JPG",
+        "pdfUrl": "https://youtu.be/tS7upsfuxmo?si=O7qvtEP-qqzxhK4a"
+    },
+    {
+        "id": 10,
+        "title": "React tutorial ",
+        "desc": "",
+        "img": "/tutorial_Img/react.JPG",
+        "pdfUrl": "https://youtu.be/Ke90Tje7VS0?si=eIticJsdhNB43-W5"
+    },
+    {
+        "id": 11,
+        "title": "Node js and Express js Tutorial ",
+        "img": "/tutorial_Img/node.JPG",
+        "pdfUrl": "https://youtu.be/Oe421EPjeBE?si=AFyJLTFiiBsWnlA0"
+    },
+    {
+        "id": 12,
+        "title": "MongoDB tutorial",
+        "desc": "",
+        "img": "/tutorial_Img/mongodb.JPG",
+        "pdfUrl": "https://youtu.be/oSIv-E60NiU?si=Zbbca4ba_JD82mG7"
+    },
+     {
+        "id": 13,
+        "title": "SQL tutorial",
+        "desc": "",
+        "img": "/tutorial_Img/sql.JPG",
+        "pdfUrl": "https://youtu.be/HXV3zeQKqGY?si=XXnSSelipVT2A1vG"
+    },
+    {
+        "id": 14,
+        "title": "Django tutorial",
+        "desc": "",
+        "img": "/tutorial_Img/django.JPG",
+        "pdfUrl": "https://youtu.be/PtQiiknWUcI?si=LyHXdFMLUW0oMQYi"
+    },
+    {
+        "id": 15,
+        "title": "Go lang tutorial",
+        "desc": "",
+        "img": "/tutorial_Img/go.JPG",
+        "pdfUrl": "https://youtu.be/YS4e4q9oBaU?si=tVHc4wde92-cEFgU"
+    },
+    {
+        "id": 16,
+        "title": "Ruby tutorial",
+        "desc": "",
+        "img": "/tutorial_Img/ruby.JPG",
+        "pdfUrl": "https://youtu.be/t_ispmWmdjY?si=TTCON1CZxR4VRjPf"
+    }
+]

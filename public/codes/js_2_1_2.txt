@@ -1,0 +1,8 @@
+let globalVar = "I am global";
+function exampleFunction() {
+    let localVar = "I am local"; // Local variable within the function
+    console.log(globalVar); // Accessible within the function
+}
+exampleFunction();
+console.log(globalVar); // Accessible outside the function
+// console.log(localVar); // Would result in an error

@@ -1,0 +1,221 @@
+/* Global styles */
+body {
+  font-family: Calibri, Segoe, "Segoe UI", "Gill Sans", "Gill Sans MT", sans-serif;
+}
+.tree h2 {
+  /* Your heading styles here */
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 40px;
+  margin-top: 70px;
+  /* Add any other styles you desire */
+}
+
+.tree{
+  margin-top: 800px;
+}
+
+/* Tree structure styles */
+.tree, .tree ul, .tree li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+.tree {
+  margin: 0 0 1em;
+  text-align: center;
+}
+
+.tree, .tree ul {
+  display: table;
+  width: 100%;
+}
+
+.tree ul {
+  width: 100%;
+}
+
+.tree li {
+  display: table-cell;
+  padding: .5em 0;
+  vertical-align: top;
+}
+
+.tree li:before {
+  outline: solid 1.5px black;
+  content: "";
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.tree li:first-child:before {
+  left: 50%;
+}
+
+.tree li:last-child:before {
+  right: 50%;
+}
+
+.tree button, .tree span {
+  border: solid .1em black;
+  border-radius: .2em;
+  display: inline-block;
+  margin: 0 .2em .5em;
+  padding: .2em .5em;
+  position: relative;
+}
+
+.tree ul:before,
+.tree button:before,
+.tree span:before {
+  outline: solid 1.5px black;
+  content: "";
+  height: .5em;
+  left: 50%;
+  position: absolute;
+}
+
+.tree ul:before {
+  top: -.5em;
+}
+
+.tree button:before,
+.tree span:before {
+  top: -.55em;
+}
+
+.tree > li {
+  margin-top: 0;
+}
+
+.tree > li:before,
+.tree > li:after,
+.tree > li > button:before,
+.tree > li > span:before {
+  outline: none;
+}
+
+/* Button styles */
+.tree button {
+  --bg: #000;
+  --hover-bg: #ff90e8;
+  --hover-text: #000;
+  color: #fff;
+  border: 1px solid var(--bg);
+  border-radius: 4px;
+  padding: 0.8em 2em;
+  background: var(--bg);
+  transition: 0.2s;
+}
+.tree button:hover {
+  color: var(--hover-text);
+  transform: translate(-0.25rem,-0.25rem);
+  background: var(--hover-bg);
+  box-shadow: 0.25rem 0.25rem var(--bg);
+}
+
+.tree button:active {
+  transform: translate(0);
+  box-shadow: none;
+}
+
+/* Add this rule to make buttons clickable */
+.tree li > button {
+  pointer-events: auto;
+}
+
+/* #rootButton{
+  margin-top: 50px;
+} */
+
+/* Modal styles */
+.modal {
+  font-family: 'Sometype Mono', monospace;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  transition: 200ms ease-in-out;
+  border: 1px solid black;
+  border-radius: 10px;
+  z-index: 10;
+  background-color: white;
+  width: 800px;
+  max-height: 400px;
+  overflow: auto; /* Add this for scrolling if content exceeds the popup height */
+}
+
+.modal.active {
+  transform: translate(-50%, -50%) scale(1);
+}
+
+.modal-header {
+  padding: 10px 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid black;
+}
+
+.modal-header .title {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+/* CSS */
+.modal-body {
+  padding: 10px 15px;
+  position: relative; /* Ensure relative positioning */
+}
+.modal-body a{
+  text-decoration: underline;
+  color: blue;
+}
+.close-button {
+  --bg: #000;
+  --hover-bg: #2260e7;
+  --hover-text: #000;
+  color: #fff;
+  border: 1px solid var(--bg);
+  border-radius: 4px;
+  padding: 0.8em 2em;
+  background: var(--bg);
+  transition: 0.2s;
+}
+
+.close-button:hover{
+
+  color: var(--hover-text);
+  transform: translate(-0.25rem,-0.25rem);
+  background: var(--hover-bg);
+  box-shadow: 0.25rem 0.25rem var(--bg);
+}
+ .close-button:active{
+  transform: translate(0);
+  box-shadow: none;
+}
+
+/* Overlay styles */
+#overlay {
+  position: fixed;
+  opacity: 0;
+  transition: 200ms ease-in-out;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  pointer-events: none;
+}
+
+#overlay.active {
+  opacity: 1;
+  pointer-events: all;
+}
+.tree > li:first-child:before {
+  display: none;
+}

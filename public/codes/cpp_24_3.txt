@@ -1,0 +1,3 @@
+while (!inputFile.eof()) { 
+    // Read data 
+}

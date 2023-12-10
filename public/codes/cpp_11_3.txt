@@ -1,0 +1,13 @@
+class Point
+{
+private:
+    int x;
+    int y;
+
+public:
+    Point(const Point &other)
+    {
+        x = other.x;
+        y = other.y;
+    }
+};

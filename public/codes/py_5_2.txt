@@ -1,0 +1,9 @@
+if condition1: { 
+    #Code to execute if condition1 is true; 
+}
+elif condition2: { 
+    #Code to execute if both condition1 and condition2 are true; 
+} 
+else { 
+    #Code to execute if condition1 is false; 
+}

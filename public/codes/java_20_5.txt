@@ -1,0 +1,11 @@
+// SwingWorker for Concurrency
+SwingWorker<Integer, Void> worker = new SwingWorker<>() {
+    protected Integer doInBackground() throws Exception {
+        // Perform background task
+        return result;
+    }
+    protected void done() {
+        // Update GUI after task completion
+    }
+};
+worker.execute();

@@ -1,0 +1,13 @@
+let num1 = 10;
+let num2 = 20;
+let sum = num1 + num2; // Addition
+
+let firstName = "John";
+let lastName = "Doe";
+let fullName = firstName + " " + lastName; // String concatenation
+
+let isActive = true;
+let isInactive = !isActive; // Logical NOT operator
+
+let x = 5;
+x++; // Increment x by 1 (x is now 6)

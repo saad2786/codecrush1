@@ -1,0 +1,16 @@
+class Base
+{
+public:
+    int publicMember;
+
+protected:
+    int protectedMember;
+
+private:
+    int privateMember;
+};
+class Derived : public Base
+{
+    // Derived class can access public and protected members of Base
+    // private members of Base are not accessible
+};

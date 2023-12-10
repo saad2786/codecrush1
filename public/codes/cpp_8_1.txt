@@ -1,0 +1,5 @@
+int numbers[5] = {1, 2, 3, 4, 5};  
+
+double temperatures[3] = {98.6, 32.0, 75.2};  
+
+char vowels[5] = {'a', 'e', 'i', 'o', 'u'}; 

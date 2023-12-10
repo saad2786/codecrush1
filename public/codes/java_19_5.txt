@@ -1,0 +1,5 @@
+// HTTP Communication
+HttpURLConnection connection = (HttpURLConnection) url.openConnection();
+connection.setRequestMethod("GET");
+int responseCode = connection.getResponseCode();
+InputStream input = connection.getInputStream();

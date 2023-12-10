@@ -1,0 +1,4 @@
+// URL and URLConnection
+URL url = new URL("https://www.example.com");
+HttpURLConnection connection = (HttpURLConnection) url.openConnection();
+InputStream input = connection.getInputStream();

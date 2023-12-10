@@ -1,0 +1,4 @@
+// for loop
+for (initialization; condition; iteration) {
+    // Code to be executed in each iteration
+}

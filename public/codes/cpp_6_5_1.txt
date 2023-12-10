@@ -1,0 +1,7 @@
+for (int i = 1; i <= 10; ++i) {
+    if (i == 5) {
+        break;
+        // Exit the loop when i becomes 5 
+    } 
+    cout << "Iteration: " << i << endl;
+} 

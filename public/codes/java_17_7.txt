@@ -1,0 +1,3 @@
+// String Formatting
+String formatted = String.format("Hello, %s!", name);
+System.out.printf("Formatted: %s%n", formatted);

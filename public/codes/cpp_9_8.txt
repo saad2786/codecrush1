@@ -1,0 +1,5 @@
+const char *message = "Hello, C++";
+cout << message << endl; 
+// Output: Hello, C++
+ cout << *(message + 7) << endl; 
+ // Output: C 

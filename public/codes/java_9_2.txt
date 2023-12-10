@@ -1,0 +1,19 @@
+// Abstraction
+class Car {
+    // Attributes (fields)
+    String brand;
+    String model;
+    int year;
+
+    // Constructor
+    public Car(String brand, String model, int year) {
+        this.brand = brand;
+        this.model = model;
+        this.year = year;
+    }
+
+    // Method
+    public void start() {
+        System.out.println("Starting the " + year + " " + brand + " " + model);
+    }
+}

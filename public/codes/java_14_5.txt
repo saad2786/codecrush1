@@ -1,0 +1,24 @@
+// Example:
+class Department {
+    String name;
+    List<Employee> employees;
+
+    public Department(String name) {
+        this.name = name;
+        employees = new ArrayList<>();
+    }
+
+    public void addEmployee(Employee employee) {
+        employees.add(employee);
+    }
+}
+
+class Employee {
+    String name;
+    int employeeId;
+
+    public Employee(String name, int employeeId) {
+        this.name = name;
+        this.employeeId = employeeId;
+    }
+}

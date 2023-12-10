@@ -1,0 +1,8 @@
+// Abstract Class
+abstract class Shape {
+    abstract double calculateArea(); // Abstract method
+
+    void display() {
+        System.out.println("This is a shape.");
+    }
+}

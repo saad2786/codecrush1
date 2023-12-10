@@ -1,0 +1,24 @@
+class Counter
+{
+private:
+    static int count;
+    // Declare static data member
+public:
+    Counter()
+    {
+        count++;
+    }
+    static int getCount()
+    {
+        return count;
+    }
+};
+int Counter::count = 0;
+// Initialize static data member
+int main()
+{
+    Counter c1, c2, c3;
+    cout << "Count: " << Counter::getCount() << endl;
+    // Output: Count: 3
+    return 0;
+}

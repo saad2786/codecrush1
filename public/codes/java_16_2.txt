@@ -1,0 +1,11 @@
+// Interface
+interface Drawable {
+    void draw(); // Abstract method
+}
+
+class Circle implements Drawable {
+    @Override
+    public void draw() {
+        System.out.println("Drawing a circle.");
+    }
+}

@@ -1,0 +1,10 @@
+#include <iostream> 
+#include <string> 
+int main() { 
+    std::string sentence = "The quick brown fox jumps over the lazy dog"; 
+    size_t position = sentence.find("fox"); // Find substring 
+    if (position != std::string::npos) { 
+        std::cout << "Substring found at position: " << position << std::endl; 
+    }
+    return 0; 
+}

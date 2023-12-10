@@ -1,0 +1,7 @@
+int main() { 
+    Animal *animal = new Dog();
+    animal->speak(); 
+    // Calls Dogs overridden speak() method 
+    delete animal; 
+    return 0;
+}

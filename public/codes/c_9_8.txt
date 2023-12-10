@@ -1,0 +1,2 @@
+const char *message = "Hello, C"; 
+printf("%s", message);

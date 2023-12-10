@@ -1,0 +1,506 @@
+[
+  {
+    "data": [
+      {
+        "sr_no": 1,
+        "problem": "Set Matrix Zeros",
+        "link": "https://leetcode.com/problems/set-matrix-zeroes/"
+      },
+      {
+        "sr_no": 2,
+        "problem": "Pascal's Triangle",
+        "link": "https://leetcode.com/problems/pascals-triangle/"
+      },
+      {
+        "sr_no": 3,
+        "problem": "Kadane's Algorithm",
+        "link": "https://leetcode.com/problems/maximum-subarray/"
+      },
+      {
+        "sr_no": 4,
+        "problem": "Stock Buy and Sell",
+        "link": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock/"
+      },
+      {
+        "sr_no": 5,
+        "problem": "Search in a 2 D matrix",
+        "link": "https://leetcode.com/problems/search-a-2d-matrix/"
+      },
+      {
+        "sr_no": 6,
+        "problem": "Grid Unique Paths",
+        "link": "https://leetcode.com/problems/unique-paths/"
+      },
+      {
+        "sr_no": 7,
+        "problem": "2Sum Problem",
+        "link": "https://leetcode.com/problems/two-sum/"
+      },
+      {
+        "sr_no": 8,
+        "problem": "4-Sum Problem",
+        "link": "https://leetcode.com/problems/4sum/"
+      },
+      {
+        "sr_no": 9,
+        "problem": "Longest Consecutive Sequence",
+        "link": "https://leetcode.com/problems/longest-consecutive-sequence/"
+      },
+      {
+        "sr_no": 10,
+        "problem": "Longest Substring without repeat",
+        "link": "https://leetcode.com/problems/longest-substring-without-repeating-characters/"
+      },
+      {
+        "sr_no": 11,
+        "problem": "Reverse a LinkedList",
+        "link": "https://leetcode.com/problems/reverse-linked-list/"
+      },
+      {
+        "sr_no": 12,
+        "problem": "Merge two sorted Linked List",
+        "link": "https://leetcode.com/problems/merge-two-sorted-lists/"
+      },
+      {
+        "sr_no": 13,
+        "problem": "Remove N-th node from back of LinkedList",
+        "link": "https://leetcode.com/problems/remove-nth-node-from-end-of-list/"
+      },
+      {
+        "sr_no": 14,
+        "problem": "Find intersection point of Y LinkedList",
+        "link": "https://leetcode.com/problems/intersection-of-two-linked-lists/"
+      },
+      {
+        "sr_no": 15,
+        "problem": "Detect a cycle in Linked List",
+        "link": "https://leetcode.com/problems/linked-list-cycle/"
+      },
+      {
+        "sr_no": 16,
+        "problem": "Flattening of a LinkedList",
+        "link": "https://practice.geeksforgeeks.org/problems/flattening-a-linked-list/1"
+      },
+      {
+        "sr_no": 17,
+        "problem": "Rotate a LinkedList",
+        "link": "https://leetcode.com/problems/rotate-list/description/"
+      },
+      {
+        "sr_no": 18,
+        "problem": "3 sum",
+        "link": "https://leetcode.com/problems/3sum/"
+      },
+      {
+        "sr_no": 19,
+        "problem": "Trapping Rainwater",
+        "link": "https://leetcode.com/problems/trapping-rain-water/"
+      },
+      {
+        "sr_no": 20,
+        "problem": "Max consecutive ones",
+        "link": "https://leetcode.com/problems/max-consecutive-ones/"
+      },
+      {
+        "sr_no": 21,
+        "problem": "N meetings in one room",
+        "link": "https://practice.geeksforgeeks.org/problems/n-meetings-in-one-room-1587115620/1"
+      },
+      {
+        "sr_no": 22,
+        "problem": "Job sequencing Problem",
+        "link": "https://practice.geeksforgeeks.org/problems/job-sequencing-problem-1587115620/1#"
+      },
+      {
+        "sr_no": 23,
+        "problem": "Fractional Knapsack Problem",
+        "link": "https://practice.geeksforgeeks.org/problems/fractional-knapsack-1587115620/1"
+      },
+      {
+        "sr_no": 24,
+        "problem": "Subset Sums",
+        "link": "https://practice.geeksforgeeks.org/problems/subset-sums2234/1"
+      },
+      {
+        "sr_no": 25,
+        "problem": "Subset-II",
+        "link": "https://leetcode.com/problems/subsets-ii/"
+      },
+      {
+        "sr_no": 26,
+        "problem": "Combination sum-1",
+        "link": "https://leetcode.com/problems/combination-sum/"
+      },
+      {
+        "sr_no": 27,
+        "problem": "Combination sum-2",
+        "link": "https://leetcode.com/problems/combination-sum-ii/"
+      },
+      {
+        "sr_no": 28,
+        "problem": "Palindrome Partitioning",
+        "link": "https://leetcode.com/problems/palindrome-partitioning/"
+      },
+      {
+        "sr_no": 29,
+        "problem": "Print all permutations of a string/array",
+        "link": "https://leetcode.com/problems/permutations/"
+      },
+      {
+        "sr_no": 30,
+        "problem": "N queens Problem",
+        "link": "https://leetcode.com/problems/n-queens/"
+      },
+      {
+        "sr_no": 31,
+        "problem": "Sudoko Solver",
+        "link": "https://leetcode.com/problems/sudoku-solver/"
+      },
+      {
+        "sr_no": 32,
+        "problem": "M Coloring Problem",
+        "link": "https://practice.geeksforgeeks.org/problems/m-coloring-problem-1587115620/1#"
+      },
+      {
+        "sr_no": 33,
+        "problem": "Rat in a Maze",
+        "link": "https://practice.geeksforgeeks.org/problems/rat-in-a-maze-problem/1"
+      },
+      {
+        "sr_no": 34,
+        "problem": "Median of 2 sorted arrays",
+        "link": "https://leetcode.com/problems/median-of-two-sorted-arrays/"
+      },
+      {
+        "sr_no": 35,
+        "problem": "K-th element of two sorted arrays",
+        "link": "https://practice.geeksforgeeks.org/problems/k-th-element-of-two-sorted-array1317/1"
+      },
+      {
+        "sr_no": 36,
+        "problem": "Allocate Minimum Number of Pages",
+        "link": "https://www.interviewbit.com/problems/allocate-books/"
+      },
+      {
+        "sr_no": 37,
+        "problem": "Aggressive Cows",
+        "link": "https://www.spoj.com/problems/AGGRCOW/"
+      },
+      {
+        "sr_no": 38,
+        "problem": "Kth Largest Element",
+        "link": "https://leetcode.com/problems/kth-largest-element-in-an-array/"
+      },
+      {
+        "sr_no": 39,
+        "problem": "Maximum Sum Combination",
+        "link": "https://www.interviewbit.com/problems/maximum-sum-combinations/"
+      },
+      {
+        "sr_no": 40,
+        "problem": "Find Median from Data Stream",
+        "link": "https://leetcode.com/problems/find-median-from-data-stream/"
+      },
+      {
+        "sr_no": 41,
+        "problem": "Merge K sorted arrays",
+        "link": "https://www.codingninjas.com/codestudio/problems/merge-k-sorted-arrays_975379"
+      },
+      {
+        "sr_no": 42,
+        "problem": "K most frequent elements",
+        "link": "https://leetcode.com/problems/top-k-frequent-elements/"
+      },
+      {
+        "sr_no": 43,
+        "problem": "Implement Stack using Queue",
+        "link": "https://leetcode.com/problems/implement-stack-using-queues/"
+      },
+      {
+        "sr_no": 44,
+        "problem": "Implement Queue using Stack",
+        "link": "https://leetcode.com/problems/implement-queue-using-stacks/"
+      },
+      {
+        "sr_no": 45,
+        "problem": "Check for balanced parentheses",
+        "link": "https://leetcode.com/problems/valid-parentheses/"
+      },
+      {
+        "sr_no": 46,
+        "problem": "Next Greater Element",
+        "link": "https://leetcode.com/problems/next-greater-element-i/"
+      },
+      {
+        "sr_no": 47,
+        "problem": "Next Smaller Element",
+        "link": "https://www.interviewbit.com/problems/nearest-smaller-element/"
+      },
+      {
+        "sr_no": 48,
+        "problem": "LRU cache (IMPORTANT)",
+        "link": "https://leetcode.com/problems/lru-cache/"
+      },
+      {
+        "sr_no": 49,
+        "problem": "Largest rectangle in a histogram",
+        "link": "https://leetcode.com/problems/largest-rectangle-in-histogram/"
+      },
+      {
+        "sr_no": 50,
+        "problem": "Sliding Window maximum",
+        "link": "https://leetcode.com/problems/sliding-window-maximum/"
+      },
+      {
+        "sr_no": 51,
+        "problem": "Longest Palindrome in a string",
+        "link": "https://leetcode.com/problems/longest-palindromic-substring/"
+      },
+      {
+        "sr_no": 52,
+        "problem": "Longest Common Prefix",
+        "link": "https://leetcode.com/problems/longest-common-prefix/"
+      },
+      {
+        "sr_no": 53,
+        "problem": "Rabin Karp",
+        "link": "https://leetcode.com/problems/repeated-string-match/discuss/416144/Rabin-Karp-algorithm-C%2B%2B-implementation"
+      },
+      {
+        "sr_no": 54,
+        "problem": "KMP algo / LPS(pi) array",
+        "link": "https://leetcode.com/problems/sliding-window-maximum/"
+      },
+      {
+        "sr_no": 55,
+        "problem": "Check for Anagrams",
+        "link": "https://leetcode.com/problems/valid-anagram/"
+      },
+      {
+        "sr_no": 56,
+        "problem": "Inorder Traversal",
+        "link": "https://leetcode.com/problems/binary-tree-inorder-traversal/"
+      },
+      {
+        "sr_no": 57,
+        "problem": "Preorder Traversal",
+        "link": "https://leetcode.com/problems/binary-tree-preorder-traversal/"
+      },
+      {
+        "sr_no": 58,
+        "problem": "Postorder Traversal",
+        "link": "https://leetcode.com/problems/binary-tree-postorder-traversal/"
+      },
+      {
+        "sr_no": 59,
+        "problem": "LeftView Of Binary Tree",
+        "link": "https://practice.geeksforgeeks.org/problems/left-view-of-binary-tree/1"
+      },
+      {
+        "sr_no": 60,
+        "problem": "Bottom View of Binary Tree",
+        "link": "https://practice.geeksforgeeks.org/problems/bottom-view-of-binary-tree/1"
+      },
+      {
+        "sr_no": 61,
+        "problem": "Top View of Binary Tree",
+        "link": "https://practice.geeksforgeeks.org/problems/top-view-of-binary-tree/1"
+      },
+      {
+        "sr_no": 62,
+        "problem": "Vertical order traversal",
+        "link": "https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree/"
+      },
+      {
+        "sr_no": 63,
+        "problem": "Height of a Binary Tree",
+        "link": "https://leetcode.com/problems/maximum-depth-of-binary-tree/"
+      },
+      {
+        "sr_no": 64,
+        "problem": "Diameter of Binary Tree",
+        "link": "https://leetcode.com/problems/diameter-of-binary-tree/"
+      },
+      {
+        "sr_no": 65,
+        "problem": "LCA in Binary Tree",
+        "link": "https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/"
+      },
+      {
+        "sr_no": 66,
+        "problem": "Zig Zag Traversal of Binary Tree",
+        "link": "https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/"
+      },
+      {
+        "sr_no": 67,
+        "problem": "Populate Next Right pointers of Tree",
+        "link": "https://leetcode.com/problems/populating-next-right-pointers-in-each-node/"
+      },
+      {
+        "sr_no": 68,
+        "problem": "Search given Key in BST",
+        "link": "https://leetcode.com/problems/search-in-a-binary-search-tree/"
+      },
+      {
+        "sr_no": 69,
+        "problem": "Find LCA of two nodes in BST",
+        "link": "https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/"
+      },
+      {
+        "sr_no": 70,
+        "problem": "DFS",
+        "link": "https://practice.geeksforgeeks.org/problems/depth-first-traversal-for-a-graph/1"
+      },
+      {
+        "sr_no": 71,
+        "problem": "BFS",
+        "link": "https://practice.geeksforgeeks.org/problems/bfs-traversal-of-graph/1"
+      },
+      {
+        "sr_no": 72,
+        "problem": "Detect A cycle in Undirected Graph",
+        "link": "https://leetcode.com/problems/course-schedule/"
+      },
+      {
+        "sr_no": 73,
+        "problem": "Topological Sort BFS",
+        "link": "https://practice.geeksforgeeks.org/problems/topological-sort/1"
+      },
+      {
+        "sr_no": 74,
+        "problem": "Topological Sort DFS",
+        "link": "https://practice.geeksforgeeks.org/problems/topological-sort/1"
+      },
+      {
+        "sr_no": 75,
+        "problem": "Bipartite Check using DFS",
+        "link": "https://leetcode.com/problems/is-graph-bipartite/"
+      },
+      {
+        "sr_no": 76,
+        "problem": "Dijkstra's Algorithm",
+        "link": "https://practice.geeksforgeeks.org/problems/implementing-dijkstra-set-1-adjacency-matrix/1"
+      },
+      {
+        "sr_no": 77,
+        "problem": "Bellman-Ford Algo",
+        "link": "https://practice.geeksforgeeks.org/problems/distance-from-the-source-bellman-ford-algorithm/0/?fbclid=IwAR2_lL0T84DnciLyzMTQuVTMBOi82nTWNLuXjUgahnrtBgkphKiYk6xcyJU"
+      },
+      {
+        "sr_no": 78,
+        "problem": "Floyd Warshall Algorithm",
+        "link": "https://practice.geeksforgeeks.org/problems/implementing-floyd-warshall2042/1"
+      },
+      {
+        "sr_no": 79,
+        "problem": "MST using Prim's Algo",
+        "link": "https://practice.geeksforgeeks.org/problems/minimum-spanning-tree/1"
+      },
+      {
+        "sr_no": 80,
+        "problem": "MST using Kruskal's Algo",
+        "link": "https://practice.geeksforgeeks.org/problems/minimum-spanning-tree/1"
+      },
+      {
+        "sr_no": 81,
+        "problem": "Longest Increasing Subsequence",
+        "link": "https://leetcode.com/problems/longest-increasing-subsequence/"
+      },
+      {
+        "sr_no": 82,
+        "problem": "Longest Common Subsequence",
+        "link": "https://leetcode.com/problems/longest-common-subsequence/"
+      },
+      {
+        "sr_no": 83,
+        "problem": "Matrix Chain Multiplication",
+        "link": "https://practice.geeksforgeeks.org/problems/matrix-chain-multiplication0303/1"
+      },
+      {
+        "sr_no": 84,
+        "problem": "Edit Distance",
+        "link": "https://leetcode.com/problems/edit-distance/"
+      },
+      {
+        "sr_no": 85,
+        "problem": "Coin change",
+        "link": "https://leetcode.com/problems/coin-change/"
+      },
+      {
+        "sr_no": 86,
+        "problem": "Rod Cutting",
+        "link": "https://leetcode.com/problems/minimum-cost-to-cut-a-stick/"
+      },
+      {
+        "sr_no": 87,
+        "problem": "Subset Sum",
+        "link": "https://leetcode.com/problems/partition-equal-subset-sum/"
+      },
+      {
+        "sr_no": 88,
+        "problem": "Word Break",
+        "link": "https://leetcode.com/problems/word-break/"
+      },
+      {
+        "sr_no": 89,
+        "problem": "Maximum profit in Job scheduling",
+        "link": "https://practice.geeksforgeeks.org/problems/job-sequencing-problem-1587115620/1"
+      },
+      {
+        "sr_no": 90,
+        "problem": "Implement Trie (Prefix Tree)",
+        "link": "https://leetcode.com/problems/implement-trie-prefix-tree/"
+      },
+      {
+        "sr_no": 91,
+        "problem": "Find K-th smallest element in BST",
+        "link": "https://leetcode.com/problems/kth-smallest-element-in-a-bst/"
+      },
+      {
+        "sr_no": 92,
+        "problem": "Find K-th largest element in BST",
+        "link": "https://practice.geeksforgeeks.org/problems/kth-largest-element-in-bst/1"
+      },
+      {
+        "sr_no": 93,
+        "problem": "Find a pair with a given sum in BST",
+        "link": "https://leetcode.com/problems/two-sum-iv-input-is-a-bst/"
+      },
+      {
+        "sr_no": 94,
+        "problem": "BST iterator",
+        "link": "https://leetcode.com/problems/binary-search-tree-iterator/"
+      },
+      {
+        "sr_no": 95,
+        "problem": "Size of the largest BST in a Binary Tree",
+        "link": "https://leetcode.com/problems/maximum-sum-bst-in-binary-tree/"
+      },
+      {
+        "sr_no": 96,
+        "problem": "Find median in a stream of running integer",
+        "link": "https://leetcode.com/problems/find-median-from-data-stream/"
+      },
+      {
+        "sr_no": 97,
+        "problem": "Binary Tree to Double Linked List",
+        "link": "https://leetcode.com/problems/flatten-binary-tree-to-linked-list/"
+      },
+      {
+        "sr_no": 98,
+        "problem": "K-th largest element in a stream.",
+        "link": "https://leetcode.com/problems/kth-largest-element-in-a-stream/"
+      },
+      {
+        "sr_no": 99,
+        "problem": "K-th largest element in an unsorted array",
+        "link": "https://leetcode.com/problems/kth-largest-element-in-an-array/"
+      },
+      {
+        "sr_no": 100,
+        "problem": "Flood-fill Algorithm",
+        "link": "https://leetcode.com/problems/flood-fill/"
+      }
+    ]
+  }
+]

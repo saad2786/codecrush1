@@ -1,0 +1,8 @@
+// Multiple catch Blocks
+try {
+    // Code that might raise an exception
+} catch (ExceptionType1 e) {
+    // Handle ExceptionType1
+} catch (ExceptionType2 e) {
+    // Handle ExceptionType2
+}

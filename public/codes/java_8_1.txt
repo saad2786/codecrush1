@@ -1,0 +1,5 @@
+// Declaration and initialization
+int[] numbers = {1, 2, 3, 4, 5}; // Declaration followed by initialization
+int[] scores = new int[5];
+scores[0] = 85;
+scores[1] = 92;

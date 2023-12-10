@@ -1,0 +1,4 @@
+// while loop
+while (condition) {
+    // Code to be executed in each iteration
+}

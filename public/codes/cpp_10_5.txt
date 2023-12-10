@@ -1,0 +1,12 @@
+class SavingsAccount : public BankAccount {
+private:
+    double interestRate;
+
+public:
+    SavingsAccount(double initialBalance, double rate) : BankAccount(initialBalance), interestRate(rate) {
+    }
+
+    double calculateInterest() {
+        return getBalance() * interestRate;
+    }
+};

@@ -1,0 +1,5 @@
+data = (x**2 for x in range(1, 6))
+filtered_data = filter(lambda x: x > 10, data)
+
+for value in filtered_data:
+    print(value)

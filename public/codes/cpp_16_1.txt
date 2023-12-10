@@ -1,0 +1,14 @@
+class Address
+{
+public:
+    string street;
+    string city;
+    string state;
+    string zip;
+} class Person
+{
+public:
+    string name;
+    Address address;
+    // Aggregation relationship
+}

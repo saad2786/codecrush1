@@ -1,0 +1,4 @@
+// Throwing Exceptions
+if (condition) {
+    throw new CustomException("This is a custom exception");
+}

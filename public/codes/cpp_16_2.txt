@@ -1,0 +1,14 @@
+int main()
+{
+    Person person;
+    person.name = "John Doe";
+    person.address.street = "123 Main St";
+    person.address.city = "City";
+    person.address.state = "State";
+    person.address.zip = "12345";
+
+    cout << "Name: " << person.name << endl;
+    cout << "Address: " << person.address.street << ", " << person.address.city << ", " << person.address.state << " " << person.address.zip << endl;
+
+    return 0;
+}

@@ -1,0 +1,11 @@
+// Nested if...else statement
+if (condition1) {
+    // Code to execute if condition1 is true
+    if (condition2) {
+        // Code to execute if both condition1 and condition2 are true
+    } else {
+        // Code to execute if condition1 is true and condition2 is false
+    }
+} else {
+    // Code to execute if condition1 is false
+}
